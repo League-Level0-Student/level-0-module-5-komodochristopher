@@ -45,13 +45,16 @@ public class skillpracticeworksheet {
 	}
 
 	void skill3() { // Get a random number that is less than 20 and print it to the console
-	 Random randy = new Random();
-	randy.nextInt(20);
-	System.out.println();
+	 int y = new Random().nextInt(20);
+	 System.out.println(y);
+	 int v =new Random().nextInt(20);
+	 System.out.println(v);
 		// Get another random number that is less than 10 and print it to the console
 
 		// Using a pop-up, tell the user the difference between the numbers // Hint: use
 		// subtraction
+	 
+JOptionPane.showMessageDialog(null, y-v);
 
 	}
 
@@ -94,8 +97,9 @@ public class skillpracticeworksheet {
 	//}
 
 	void skill5() { // In a pop-up, ask the user for the name of their school
-
+//String k =JOptionPane.showInputDialog("Whats your school named");
 		// In another pop-up, tell the user, that their school is a fantastic school. //
+//JOptionPane.showMessageDialog(null, k+ " is a fantastic school");
 		// You must include the name of the school in the message.
 	}
 }
