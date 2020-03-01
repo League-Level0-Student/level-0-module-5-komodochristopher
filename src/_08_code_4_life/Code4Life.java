@@ -23,7 +23,7 @@ String h =JOptionPane.showInputDialog("How many hours of code have you done this
 	// write code instead.
 int hjk =Integer.parseInt(h);
 if(hjk<=2) {
-	JOptionPane.showMessageDialog(null,"STOP WATCHING YOUTUBE!, CODE ISNTEAD!");
+	JOptionPane.showMessageDialog(null,"STOP WATCHING YOUTUBE!, CODE INSTEAD!");
 }
 	// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
 	// they're a Code Ninja
@@ -35,8 +35,8 @@ if(hjk<=5) {
 }
 
 	// 4. If it is more than 5, call the method below to play the Batman theme song.
-if(hjk<5) {
-
+if(hjk>5) {
+playBatmanTheme();
 }
 
 }
